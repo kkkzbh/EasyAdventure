@@ -160,9 +160,9 @@
 
   <div id="loading" class="screen">
     <noscript>Enable JavaScript</noscript>
+    <h1 class="loading-text">加载中~~~</h1>
     
-    
-    
+    <div class="progress-bar-outer"><div class="progress-bar-inner" id="loading-inner"></div></div>
   </div>
 
   <div id="error" class="screen" hidden>
@@ -201,8 +201,8 @@
       setProgress(0.1);
 
       const scaffolding = new Scaffolding.Scaffolding();
-      scaffolding.width = 2560;
-      scaffolding.height = 1440;
+      scaffolding.width = 1920;
+      scaffolding.height = 1080;
       scaffolding.resizeMode = "stretch";
       scaffolding.editableLists = false;
       scaffolding.usePackagedRuntime = true;
